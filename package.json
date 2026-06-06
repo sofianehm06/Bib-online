@@ -1,0 +1,26 @@
+{
+  "name": "bibliotheque-en-ligne",
+  "version": "1.0.0",
+  "description": "Application mobile de bibliothèque en ligne — gestion et échange de livres entre utilisateurs",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node src/seed.js"
+  },
+  "keywords": [
+    "bibliotheque",
+    "livres",
+    "echange",
+    "express",
+    "bootstrap"
+  ],
+  "author": "Sofiane Hammami",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}

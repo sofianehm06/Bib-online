@@ -1,0 +1,20 @@
+{
+  "name": "BiblioÉchange — Bibliothèque en ligne",
+  "short_name": "BiblioÉchange",
+  "description": "Gérez et échangez vos livres entre utilisateurs.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5f6fa",
+  "theme_color": "#4f46e5",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

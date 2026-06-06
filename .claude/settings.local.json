@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(node server.js)",
+      "PowerShell($c = Get-NetTCPConnection -LocalPort 3000 -State Listen -ErrorAction SilentlyContinue; if \\($c\\) { Stop-Process -Id $c.OwningProcess -Force; \"Stopped PID $\\($c.OwningProcess\\)\" } else { \"No listener on 3000\" })",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}
